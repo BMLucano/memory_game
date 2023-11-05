@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="memory-game.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h3>Current Score: <span id="score">0</span></h2>
+    <h1>Memory Game!</h1>
+    <h3>Best Score: <span id="bestScore"></span></h3>
+  </header>
+
+  <section>
+    <p>Win the game in the LEAST amount of tries. <br> Restart the game to beat your best score!</p>
+    <h2 id="winner"></h2>
+  </section>
+
+
+<div id="game"></div>
+
+<button type="button" id="reset">Reset Game</button>
+
+<script src="memory-game.js"></script>
+
+</body>
+</html>
